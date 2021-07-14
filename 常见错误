@@ -1,0 +1,11 @@
+1、在客户端同步时间时，出现以下报错：
+the NTP socket is in use, exiting
+
+说明当前已经有进程在使用ntpd，需要查询这个进程号，然后kill掉。所以建议客户端不要启动任何相关关于ntpd服务的进程，只需要把包装上即可。
+
+
+
+2、同步时间时出现以下报错：
+No Server suitable for synchronization found
+
+可能原因是服务端刚配置完成，客户端就立马进行同步，需要等待大约5分钟后开始同步。
