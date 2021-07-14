@@ -1,5 +1,6 @@
 1、利用restrict来管理权限
-格式：restrict 【IP地址】 mask 【netmask_ip】 【parameter】
+格式：restrict 【客户端IP地址】 mask 【ip掩码】 【parameter】
+这个字段主要用来控制哪些客户端可以使用此台服务器。
 
 其中parameter的参数有以下几个：
 （1）ignore：拒绝所有类型的NTP连接
