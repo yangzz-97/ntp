@@ -1,3 +1,5 @@
+https://www.cnblogs.com/yj411511/p/10794226.html
+
 1、利用restrict来管理权限
 格式：restrict 【本机ip地址】 mask 【ip掩码】 【parameter】
 在客户端上就写客户端的ip地址，在服务端上就写服务端的IP地址
