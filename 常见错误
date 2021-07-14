@@ -9,3 +9,6 @@ the NTP socket is in use, exiting
 No Server suitable for synchronization found
 
 可能原因是服务端刚配置完成，客户端就立马进行同步，需要等待大约5分钟后开始同步。
+
+
+3、还有可能和dns解析有关 ，dns解析不来NTP服务器
